@@ -1,7 +1,7 @@
 body {
     background-color: lavender;
     margin: 0;
-    padding: 0px;
+    
 }
 
 
@@ -24,16 +24,17 @@ header{
 
 
 h1{
-    font-size: 20px;
+    font-size: 22px;
 }
 
 #titleP{
-    font-size: 12px; 
+    font-size: 14px; 
 }
 
 nav{
     display: flex;
     align-items: center;
+    width: 40%;
       
 }
 
@@ -48,5 +49,9 @@ ul {
 
 
 #headerContainer {
-    min-width: 50%
+    min-width: 30%;
+}
+
+#webTitle{
+ width: 30%;
 }
