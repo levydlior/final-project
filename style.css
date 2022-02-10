@@ -13,7 +13,8 @@ header{
     display: flex;
     background-color: darkcyan;
     box-shadow: 0px 0px 9px 3px rgb(41 41 41 / 25%);
-
+    padding-left: 10px;
+}
 }
 
 h1{
@@ -21,12 +22,22 @@ h1{
 }
 
 #titleP{
-    font-size: 9px; 
+    font-size: 12px; 
 }
 
-
+nav{
+    display: flex;
+    align-items: center;
+    padding-inline: 17rem;   
+}
 
 ul {
-    list-style: none;
     display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+    width: 40rem;
+    padding-left: 78px;
+    padding-inline: 1rem;
+    height: 2rem;
 }
