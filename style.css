@@ -1,4 +1,32 @@
 body {
     background-color: lavender;
+    margin: 0;
 }
 
+#mainPageImage{
+    margin: auto;
+    width: 800px;
+    height: 800px;
+}
+
+header{
+    display: flex;
+    background-color: darkcyan;
+    box-shadow: 0px 0px 9px 3px rgb(41 41 41 / 25%);
+
+}
+
+h1{
+    font-size: 20px;
+}
+
+#titleP{
+    font-size: 9px; 
+}
+
+
+
+ul {
+    list-style: none;
+    display: flex;
+}
