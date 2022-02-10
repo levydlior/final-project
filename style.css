@@ -1,7 +1,10 @@
 body {
     background-color: lavender;
     margin: 0;
+    padding: 0px;
 }
+
+
 
 #mainPageImage{
     margin: auto;
@@ -12,10 +15,13 @@ body {
 header{
     display: flex;
     background-color: darkcyan;
-    box-shadow: 0px 0px 9px 3px rgb(41 41 41 / 25%);
-    padding-left: 10px;
+    padding-left: 22px;
+    width: 100%;
+    min-width: 1000px;
+    height: auto;
+    
 }
-}
+
 
 h1{
     font-size: 20px;
@@ -28,16 +34,19 @@ h1{
 nav{
     display: flex;
     align-items: center;
-    padding-inline: 17rem;   
+      
 }
 
 ul {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    align-items: center;
-    width: 40rem;
-    padding-left: 78px;
-    padding-inline: 1rem;
-    height: 2rem;
+    width: 100%;
+    min-width: 1000px;
+    height: auto;
+}
+
+
+#headerContainer {
+    min-width: 50%
 }
