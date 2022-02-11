@@ -18,6 +18,7 @@ main{
     height: 684px;;
     display: inline;
     margin: 0rem;
+    cursor: grab;
 }
 
 #tennis{
@@ -84,4 +85,5 @@ footer{
 
 a:hover{
     text-decoration: none;
+    
 }
