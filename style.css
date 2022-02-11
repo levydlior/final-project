@@ -35,7 +35,6 @@ header{
     
 }
 
-
 h1{
     font-size: 22px;
     font-family: cursive;
@@ -60,8 +59,7 @@ ul {
     list-style-type: none;
     width: 100%;
      padding-left: 20%; 
-}
-
+    }
 
 #headerContainer {
     min-width: 30%;
@@ -86,4 +84,29 @@ footer{
 a:hover{
     text-decoration: none;
     
+}
+
+#tennisBall{
+    width: 180px;
+    height: 140px;  
+    position: relative;
+    bottom: -15rem;
+    left: -1rem;
+}
+
+h2{
+    padding-left: 17px;
+    padding-right: 22%;
+    width: 50%;
+}
+
+#playMain{
+    padding-right: 0%;
+    margin-right: 0%; 
+}
+
+#happyMighkty{
+    float: right;
+    padding-right: 0%;
+    margin-right: 0;
 }
