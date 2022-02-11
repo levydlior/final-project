@@ -59,6 +59,7 @@ ul {
     list-style-type: none;
     width: 100%;
      padding-left: 20%; 
+     padding-right: 3%;
     }
 
 #headerContainer {
@@ -92,6 +93,7 @@ a:hover{
     position: relative;
     bottom: -15rem;
     left: -1rem;
+    transition-duration: 1000ms;
 }
 
 h2{
