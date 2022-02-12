@@ -78,7 +78,7 @@ footer{
 }
 
 #mainPageP{
-    
+    width: 40%;
     font-family: cursive
 }
 
@@ -116,3 +116,66 @@ h2{
 .mail  {
      color: purple; 
     }
+
+#aboutMain{
+    display: flex;
+    justify-content: space-between;
+}
+
+#aboutText{
+    width: 30%;
+    padding-left: 1%;
+    font-family: system-ui;
+}
+
+#puppyP{
+    position: relative;
+    width: 519px;
+    /* display: none; */
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+    
+    
+}
+
+#siblings{
+    position: relative;
+    /* display: inherit; */
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+    width: 519px;
+    
+}
+
+button{
+    height: 8%;
+    right: -26%;
+    margin-top: 19%;
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+@-webkit-keyframes fadeOut {
+    from { opacity: 1; }
+      to { opacity: 0; }
+}
+@keyframes fadeOut {
+    from { opacity: 1; }
+      to { opacity: 0; }
+}
