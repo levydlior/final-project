@@ -1,181 +1,208 @@
-body ,html {
-    background-color: lavender;
-    width: 100%;
-    height: 100%;   
-    margin:0;
-    padding:0;
+body {
+  background-color: lavender;
+  margin: 0;
+  padding: 0;
 }
 
-main{
-    display: flex; 
-    width:100%;
-    height: 75%;
+main {
+  display: flex;
+  justify-content: space-between;
 }
 
-#mainPageImage{
-    
-    width: 965px;
-    height: 684px;;
-    display: inline;
-    margin: 0rem;
-    cursor: grab;
+#mainPageImage {
+  width: 50%;
+  height: 50%;
+  display: inline;
+  margin: 0rem;
+  cursor: grab;
 }
 
-#tennis{
-    width: 58px;
-    height: 47px;
-}
+@media (max-width: 390px) {
+  ul {
+    flex-direction: column;
+  }
 
-header{
-    display: flex;
-    background-color: darkcyan;
-    padding-left: 22px;
-    width: 100%;
-    height: 10%;
-    
-}
-
-h1{
-    font-size: 22px;
-    font-family: cursive;
-    margin-bottom: -1rem;
-    
-}
-
-#titleP{
-    font-size: 14px; 
-}
-
-nav{
-    display: flex;
-    align-items: center;
+  #webTitle{
     width: 40%;
-      
+  }
+}
+
+#tennis {
+  width: 58px;
+  height: 47px;
+}
+
+header {
+  background-color: darkcyan;
+  width: 100%;
+  height: 10%;
+}
+
+#headerContent {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 22px;
+  font-family: cursive;
+  margin-bottom: -1rem;
+}
+
+#titleP {
+  font-size: 14px;
 }
 
 ul {
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    width: 100%;
-     padding-left: 20%; 
-     padding-right: 3%;
-    }
-
-#headerContainer {
-    min-width: 30%;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
 }
 
-#webTitle{
- width: 30%;
+li {
+  padding: 0 15px;
 }
 
-footer{
-    height: 15%;
-    width: 100%;
-    background-color: darkcyan;
-     position: fixed; 
+footer {
+  height: 20px;
+  width: 100%;
+  background-color: darkcyan;
+  position: fixed;
+  bottom: 0;
 }
 
-#mainPageP{
-    width: 40%;
-    font-family: cursive
+#mainPageP {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    padding-left: 16px;
+  font-family: cursive;
 }
 
-a:hover{
-    text-decoration: none;
-    
+a:hover {
+  text-decoration: none;
 }
 
-#tennisBall{
-    width: 180px;
-    height: 140px;  
-    position: relative;
-    bottom: -15rem;
-    left: -1rem;
-    transition-duration: 1000ms;
+#tennisBall {
+  width: 180px;
+  height: 140px;
+  position: relative;
+  bottom: -15rem;
+  left: -1rem;
+  transition-duration: 1000ms;
 }
 
-h2{
-    padding-left: 17px;
-    padding-right: 22%;
-    width: 50%;
+h2 {
+  padding-left: 17px;
+  padding-right: 22%;
+  width: 50%;
 }
 
-#playMain{
-    padding-right: 0%;
-    margin-right: 0%; 
+#playMain {
+  padding-right: 0%;
+  margin-right: 0%;
 }
 
-#happyMighkty{
-    float: right;
-    padding-right: 0%;
-    margin-right: 0;
+#happyMighkty {
+  float: right;
+  padding-right: 0%;
+  margin-right: 0;
+  width: 30%;
+  height: 30%;
+  display: inline;
+  margin: 0rem;
+  cursor: grab;
 }
 
-.mail  {
-     color: purple; 
-    }
-
-#aboutMain{
-    display: flex;
-    justify-content: space-between;
+.mail {
+  color: purple;
 }
 
-#aboutText{
-    width: 30%;
-    padding-left: 1%;
-    font-family: system-ui;
+#aboutMain {
+  display: flex;
+  justify-content: space-between;
 }
 
-#puppyP{
-    position: relative;
-    width: 519px;
-    /* display: none; */
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-    
-    
+#aboutText {
+  width: 30%;
+  padding-left: 1%;
+  font-family: system-ui;
 }
 
-#siblings{
-    position: relative;
-    /* display: inherit; */
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-    width: 519px;
-    
+#puppyP {
+  position: relative;
+  width: 45%;
+ height: 50%;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
 }
 
-button{
-    height: 8%;
-    right: -26%;
-    margin-top: 19%;
+#siblings {
+  position: relative;
+  /* display: inherit; */
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+  width: 45%;
+  height: 50%;
 }
 
-@-webkit-keyframes fadeIn {
-    from { opacity: 0; }
-      to { opacity: 1; }
-}
-@keyframes fadeIn {
-    from { opacity: 0; }
-      to { opacity: 1; }
+button {
+  height: 8%;
+  right: -26%;
+  margin-top: 19%;
 }
 
 @-webkit-keyframes fadeIn {
-    from { opacity: 0; }
-      to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 @keyframes fadeIn {
-    from { opacity: 0; }
-      to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes fadeOut {
-    from { opacity: 1; }
-      to { opacity: 0; }
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 @keyframes fadeOut {
-    from { opacity: 1; }
-      to { opacity: 0; }
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
